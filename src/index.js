@@ -1,14 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
+import Cards from './@components/Cards/Cards';
+import Header from './@components/Header/Header';
+import Scroll from './@components/Scroll';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+  <div>
+    <Header/>
+    <Scroll>
+      <Cards/>
+    </Scroll>
+    <footer calssName='footer'>
+     Ален Бориславов гард:Перник тел:0888888888 
+    </footer>
+  </div>
   </React.StrictMode>
 );
 
