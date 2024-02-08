@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/alen/static/css/main.44510785.css",
+    "main.js": "/alen/static/js/main.2fb822d5.js",
+    "static/js/592.13877c81.chunk.js": "/alen/static/js/592.13877c81.chunk.js",
+    "static/media/sunflower.jpg": "/alen/static/media/sunflower.07f00b4cab4a4ce1dee0.jpg",
+    "index.html": "/alen/index.html",
+    "main.44510785.css.map": "/alen/static/css/main.44510785.css.map",
+    "main.2fb822d5.js.map": "/alen/static/js/main.2fb822d5.js.map",
+    "592.13877c81.chunk.js.map": "/alen/static/js/592.13877c81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44510785.css",
+    "static/js/main.2fb822d5.js"
+  ]
+}
