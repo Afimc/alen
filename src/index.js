@@ -15,7 +15,7 @@ root.render(
     <Scroll>
       <Cards/>
     </Scroll>
-    <footer calssName='footer'>
+    <footer className='footer'>
      Ален Бориславов гард:Перник тел:0888888888 
     </footer>
   </div>

@@ -12,7 +12,12 @@ body {
 }
 
 .footer{
-  background-color: aqua;
+    background-color: rgba(46, 146, 222, 0.378);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 100px;
+    box-shadow: 0 0 10px 3px black;
+    height: 70px;
 
 }
 
