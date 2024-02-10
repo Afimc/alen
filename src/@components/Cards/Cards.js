@@ -1,14 +1,10 @@
 import React from "react";
-import { Offers } from '../Offers/Offers';
+// import { Offers } from '../Offers/Offers';
 import './Cards.css';
 
 
-const Cards = () => {
+const Cards = ({Offers}) => {
   return (
-    <div className='mainCards'>
-      <div className='search tc'>
-        
-      </div>
       <div className="Offers tc">
         {
           Offers.map((offer) => {
@@ -27,7 +23,6 @@ const Cards = () => {
           })
         }
       </div>
-    </div>
   );
 }
 

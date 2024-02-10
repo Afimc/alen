@@ -8,13 +8,13 @@ export const Offers = [
     {
         id: 2,
         pic: 'assets/images/skyDiving.jpeg',
-        name: 'Скок с парашут',
+        name: 'Каяк',
         price: '100лв',
     },
     {
         id: 3,
         pic: 'assets/images/skyDiving.jpeg',
-        name: 'Скок с парашут',
+        name: 'Бънджи скок',
         price: '100лв',   
     },
     {

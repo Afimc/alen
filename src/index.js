@@ -3,18 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
-import Cards from './@components/Cards/Cards';
-import Header from './@components/Header/Header';
-import Scroll from './@components/Scroll';
+import App from './@smartcomp/App';
+// import Header from './@components/Header/Header'
+
+// import Scroll from './@components/Scroll';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   <div>
-    <Header/>
-    <Scroll>
-      <Cards/>
-    </Scroll>
+    <App/>
     <footer className='footer'>
      Ален Бориславов гард:Перник тел:0888888888 
     </footer>

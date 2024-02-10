@@ -1,7 +1,7 @@
 .Header{
 display: flex;
     justify-content: space-between;
-    padding: 0 70px;
+    padding: 0 40px;
     align-items: center;
     position: sticky;
     top: 0;
