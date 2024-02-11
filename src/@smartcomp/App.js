@@ -2,6 +2,7 @@ import React,{Component} from "react";
 import Cards from '../@components/Cards/Cards';
 import Header from '../@components/Header/Header';
 import {Offers} from '../@components/Offers/Offers';
+import Footer from '../@components/Footer/Footer';
 
 
 
@@ -26,10 +27,10 @@ class App extends Component {
         }) 
         
         return(
-            <div>
+            <div className='App'>
                 <Header searchChange={this.onSearchChange}/>
-                {/* <SearchBox searchChange={this.onSearchChange} /> */}
                 <Cards Offers={filteredOffers} />
+                <Footer/>
             </div>
         );
 

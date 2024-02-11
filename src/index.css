@@ -5,23 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image:  url('/public/assets/images/sunflower.jpg');
+  /* background-image:  url('/public/assets/images/sunflower.jpg'); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
-
+  background-size: cover;
+  background-image: linear-gradient(to right, rgba(32, 17, 146, 0.67), rgba(255, 0, 0, 0.538));
 }
 
-.footer{
-    background-color: rgba(46, 146, 222, 0.378);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    border-radius: 100px;
-    box-shadow: 0 0 10px 3px black;
-    height: 70px;
-    text-align: center;
-    font-size: 40px;
-
-
+.App {
+  min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 code {

@@ -1,5 +1,19 @@
 .CardStyle{
-  background: rgba(16, 201, 6, 0.203);
-  margin: 10px 60px;
+  /* background: rgba(16, 201, 6, 0.203); */
+  background-image:  url('/public/assets/images/sunflower.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-size: cover;
+  margin: 20px 60px;
   box-shadow: 0 0 10px 2px black;
+  transition: transform .8s;
+  
+}
+.CardStyle:hover{
+  transform: scale(1.4);
+  rotate: 20deg;
+
+}
+.Offers{
+margin: 40px;
 }

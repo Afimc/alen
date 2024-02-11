@@ -9,7 +9,7 @@ const Cards = ({Offers}) => {
         {
           Offers.map((offer) => {
             return (
-              <div key={offer.id} className="CardStyle dib br3 pa3 grow ">
+              <div key={offer.id} className="CardStyle dib br3 pa3 ">
                 <img alt='sky'
                   src={offer.pic}
                   width={250} height={250}

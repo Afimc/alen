@@ -6,11 +6,15 @@ display: flex;
     position: sticky;
     top: 0;
     z-index: 999;
-    /* background-image: url('/public/assets/images/sunflower.jpg'); */
     background-color: rgba(46, 146, 222, 0.378);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 100px;
     box-shadow: 0 0 10px 3px black;
+    
   
+}
+.logo {
+    margin-top: 20px;
+    padding-top: 10px;
 }

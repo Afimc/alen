@@ -11,11 +11,8 @@ import App from './@smartcomp/App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <div>
+  <div className='App'>
     <App/>
-    <footer className='footer'>
-     Ален Бориславов гард:Перник тел:0888888888 
-    </footer>
   </div>
   </React.StrictMode>
 );
